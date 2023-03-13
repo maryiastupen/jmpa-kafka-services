@@ -1,0 +1,32 @@
+{
+  "namespace": "com.epam.learn",
+  "type": "record",
+  "name": "DogV2",
+  "version": "2",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "breed",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    // additional field that appeared in version 2
+    {
+      "name": "weight",
+      "type": "int",
+      "default": 25
+    }
+  ]
+}

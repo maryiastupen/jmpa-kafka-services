@@ -1,0 +1,26 @@
+{
+  "namespace": "com.epam.learn",
+  "type": "record",
+  "name": "DogV1",
+  "version": "1",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "breed",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    }
+  ]
+}
